@@ -1,0 +1,15 @@
+/* Sử dụng box-sizing: border-box để không bị phá vỡ cấu trúc khối */
+/* Bắt buộc 3 tham số này viết đầu tiên */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    /* Quy đổi 1 rem = 10px */
+    font-size: 62.5%;
+}
+
+/* Khôi phục cỡ chữ mặc định */
+body{
+    font-size: 1.6rem;
+}
