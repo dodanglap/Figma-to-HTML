@@ -1,15 +1,247 @@
 /* Sử dụng box-sizing: border-box để không bị phá vỡ cấu trúc khối */
 /* Bắt buộc 3 tham số này viết đầu tiên */
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-html{
-    /* Quy đổi 1 rem = 10px */
-    font-size: 62.5%;
+html {
+  /* Quy đổi 1 rem = 10px */
+  font-size: 62.5%;
 }
 
 /* Khôi phục cỡ chữ mặc định */
-body{
-    font-size: 1.6rem;
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins" sans-serif;
 }
+
+/* ======================================================================= */
+
+/* Code các phần chung trước */
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 1170px;
+
+  /* Căn giữa header */
+  margin-right: auto;
+  margin-left: auto;
+
+  /* Giữ tỷ lệ căn lề */
+  max-width: calc(100% - 48px);
+}
+
+.btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 24.5px;
+  background-color: #12110f;
+  height: 50px;
+  width: 118px;
+  padding: 5px 16px;
+  display: inline-block;
+  align-content: center;
+}
+
+
+
+/*====================== Page1 ===========*/
+
+/* =================header================= */
+
+/* Cố định thanh menu */
+
+
+.header .body-header {
+  display: flex;
+  padding: 36px 10px;
+  background-color: rgb(213, 220, 234);
+  border-radius: 5px;
+
+}
+
+.nav-header {
+  margin-left: auto;
+  position: relative;
+}
+
+.nav-header ul {
+  margin-right: auto;
+  display: flex;
+}
+
+.nav-header a {
+  font-size: 1.6rem;
+  color: #5f5b53;
+  padding: 8px 21px;
+  position: relative;
+}
+
+.nav-header a:hover {
+  color: rgb(21, 21, 63);
+  font-weight: 600;
+  /* text-shadow: 1 0 0 currentColor; */
+}
+
+/* Thêm dấu gạch dưới ở Home */
+.nav-header li.active a::before {
+  display: inline-block;
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #5f5b53;
+  position: absolute;
+  bottom: 6px;
+}
+
+
+.header .btn-sign-up{
+    min-width: 144px;
+}
+
+.body-header{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #12110f;
+}
+
+/* Phần image */
+.container_courses{
+  
+  display: flex;
+  margin-top: 2rem;
+  position: relative;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+.image img{
+  border-radius: 20px;
+  width: 40rem;
+  margin: 6rem 6rem;
+}
+
+.list_courses{
+  
+  border-radius: 15px;
+  height: 200px;
+  width: 200px;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 25rem;
+  left: 45rem;
+  /* z-index: 1; */
+  background-color: rgb(240, 234, 234);
+}
+
+#course{
+  list-style: none;
+  
+}
+
+.number_courses{
+  color: #72716e;
+  font-size: 1.5rem;
+
+}
+
+.name_courses{
+  
+  font-size: 2rem;
+  font-weight: bolder;
+
+
+}
+
+.item_course{
+  display: flex;
+  margin: 15px 10px;
+  
+}
+
+.item_course i{
+  font-size: 2.5rem;
+  padding: 5px 5px;
+}
+
+
+/* ====== Phần learn without ===========*/
+
+.learn{
+  
+  width: 470px;
+  height: 558px;
+  margin: 15rem 6rem;
+
+}
+.learn h1{
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 68px;
+  
+}
+
+.learn p{
+  line-height: 30px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.see_watch{
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.btn_see_courses{
+
+  background-color: rgb(187, 187, 33);
+  margin-right: 4rem;
+  margin-left: 4rem;
+  width: 15rem;
+  height: 6rem;
+  
+  
+}
+
+.btn_see_courses:hover{
+  background-color: #5f5b53;
+  color: #fff;
+}
+
+.see_watch i{
+  font-size: 2rem;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+
+.recent{
+  margin-top: 4rem;
+}
+
+.recent_state{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.recent strong{
+  font-weight: 600;
+  font-size: 3rem;
+}
+
