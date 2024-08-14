@@ -129,7 +129,7 @@ a {
 }
 
 .image{
-  margin: auto;
+  margin: 20px;
 }
 .image img{
   border-radius: 2rem;
@@ -147,7 +147,7 @@ a {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 20%;
+  top: 100px;
   left: 35%;
   
   
