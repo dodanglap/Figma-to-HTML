@@ -23,8 +23,6 @@ a {
 }
 
 .main-content {
-  
- 
   /* Căn giữa header */
   margin-right: auto;
   margin-left: auto;
@@ -47,14 +45,11 @@ a {
   align-content: center;
 }
 
-
-
 /*====================== Page1 ===========*/
 
 /* =================header================= */
 
 /* Cố định thanh menu */
-
 
 .header .body-header {
   display: flex;
@@ -99,162 +94,137 @@ a {
   bottom: 0.6rem;
 }
 
-
-.header .btn-sign-up{
-    min-width: 14.4rem;
+.header .btn-sign-up {
+  min-width: 14.4rem;
 }
 
-.body-header{
-    display: flex;
-    align-items: center;
-    
-
+.body-header {
+  display: flex;
+  align-items: center;
 }
 
-.btn:hover{
-    background-color: #fff;
-    color: #12110f;
+.btn:hover {
+  background-color: #fff;
+  color: #12110f;
 }
 
 /* Phần image */
-.container_courses{
-  
+.container_courses {
   display: flex;
   margin: 2rem;
   position: relative;
   justify-content: center;
   background-color: antiquewhite;
-  
-  
 }
 
-.image{
+.image {
   margin: 20px;
 }
-.image img{
+.image img {
   border-radius: 2rem;
   width: 30rem;
   margin: 6rem 6rem;
   min-width: auto;
 }
 
-.list_courses{
-  
+.list_courses {
   border-radius: 1.5rem;
-  
+
   /* margin: auto auto; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 100px;
+  top: 300px;
   left: 35%;
-  
-  
+
   /* z-index: 1; */
   background-color: rgb(170, 149, 149);
   min-width: auto;
   min-height: auto;
   max-height: fit-content;
-  
-  
 }
 
-#course{
+#course {
   list-style: none;
-  
 }
 
-.number_courses{
+.number_courses {
   color: #72716e;
   font-size: 1.5rem;
-
 }
 
-.name_courses{
-  
+.name_courses {
   font-size: 2rem;
   font-weight: bolder;
-
-
 }
 
-.item_course{
+.item_course {
   display: flex;
   margin: 1.5rem 1rem;
-  
 }
 
-.item_course i{
+.item_course i {
   font-size: 2.5rem;
   padding: 0.5rem 0.5rem;
 }
 
-
 /* ====== Phần learn without ===========*/
 
-.learn{
-  
+.learn {
   width: 30vw;
   height: 55wh;
   margin: 1.5rem 6rem;
-
 }
-.learn h1{
+.learn h1 {
   display: inline-block;
   font-size: 4rem;
   font-weight: 700;
   line-height: 6.8rem;
-  
 }
 
-.learn p{
+.learn p {
   line-height: 3rem;
   text-align: justify;
   font-size: 1.8rem;
 }
 
-.see_watch{
+.see_watch {
   display: flex;
   margin-top: 2rem;
   align-items: center;
 }
 
-.btn_see_courses{
-
+.btn_see_courses {
   background-color: rgb(187, 187, 33);
   margin-right: 4rem;
   margin-left: 4rem;
   width: 15rem;
   height: 6rem;
-  
-  
 }
 
-.btn_see_courses:hover{
+.btn_see_courses:hover {
   background-color: #5f5b53;
   color: #fff;
 }
 
-.see_watch i{
+.see_watch i {
   font-size: 2rem;
   margin-left: 7rem;
   margin-right: 1rem;
 }
 
-
-.recent{
+.recent {
   margin-top: 4rem;
 }
 
-.recent_state{
+.recent_state {
   display: flex;
   width: 30rem;
   justify-content: space-between;
 }
 
-.recent strong{
+.recent strong {
   font-weight: 600;
   font-size: 3rem;
 }
-
