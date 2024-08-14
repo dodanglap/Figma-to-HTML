@@ -185,7 +185,7 @@ a {
 
 .learn p {
   line-height: 3rem;
-  text-align: justify;
+  
   font-size: 1.8rem;
 }
 
@@ -193,6 +193,7 @@ a {
   display: flex;
   margin-top: 2rem;
   align-items: center;
+  justify-content: start;
 }
 
 .btn_see_courses {
@@ -210,8 +211,7 @@ a {
 
 .see_watch i {
   font-size: 2rem;
-  margin-left: 7rem;
-  margin-right: 1rem;
+  padding-right: 5px;
 }
 
 .recent {
