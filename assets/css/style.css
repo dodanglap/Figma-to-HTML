@@ -57,6 +57,7 @@ a {
   background-color: rgb(213, 220, 234);
   border-radius: 0.5rem;
   min-width: fit-content;
+  align-items: center;
 }
 
 .nav-header {
@@ -98,10 +99,6 @@ a {
   min-width: 14.4rem;
 }
 
-.body-header {
-  display: flex;
-  align-items: center;
-}
 
 .btn:hover {
   background-color: #fff;
@@ -115,6 +112,9 @@ a {
   position: relative;
   justify-content: center;
   background-color: antiquewhite;
+  max-width: auto;
+  min-width: auto;
+  
 }
 
 .image {
